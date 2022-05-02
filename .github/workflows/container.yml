@@ -7,6 +7,9 @@ on:
     paths:
       - 'container/**'
       - '.github/workflows/**'
+  pull_request:
+    branches:
+      - master
 defaults:
   run:
     working-directory: container
