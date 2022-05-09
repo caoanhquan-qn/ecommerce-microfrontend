@@ -1,4 +1,4 @@
-import { mount } from 'marketing/MarketingIndex';
+import { mount } from 'auth/AuthIndex';
 import React, { useRef, useEffect } from 'react';
 
 import { useHistory } from 'react-router-dom';
