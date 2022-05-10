@@ -17,6 +17,7 @@ export default ({ onSignIn }) => {
       initialPath: history.location.pathname,
       onSignIn: () => {
         onSignIn();
+        history.push('/dashboard');
       },
     });
 
